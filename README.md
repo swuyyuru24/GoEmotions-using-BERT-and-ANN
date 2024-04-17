@@ -25,23 +25,22 @@ This repository contains code and resources related to the project "Emotion Dete
    git clone https://github.com/your-username/emotion-detection.git
    cd emotion-detection
 
+2. Set up the environment:
+   Copy code
+   ```bash
+   pip install -r requirements.txt
+3. Explore the Jupyter notebooks in the code/ directory for data preprocessing, model training, and evaluation.
+4. Run the notebooks to reproduce the results or train your own models.
 
-Set up the environment:
-bash
-Copy code
-pip install -r requirements.txt
-Explore the Jupyter notebooks in the code/ directory for data preprocessing, model training, and evaluation.
-Run the notebooks to reproduce the results or train your own models.
-
-Results:
+## Results:
 The fine-tuned BERT model outperformed the fine-tuned ANN model in terms of accuracy and validation loss.
 Detailed results and performance metrics can be found in the results/ directory.
 
-Future Scope:
+## Future Scope:
 Experiment with larger datasets and more complex deep learning architectures.
 Explore additional pre-processing techniques and hyperparameter tuning for improved model performance.
 Extend the application of emotion detection models to social media monitoring and consumer feedback analysis.
 
-Contributors:
+## Contributors:
 Samyuktha Wuyyuru (swuyyur1@umbc.edu)
 Geeta Sanjetha Pericherla (geetasp1@umbc.edu)
